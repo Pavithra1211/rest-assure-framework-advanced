@@ -1,0 +1,15 @@
+com\utils\PropertyUtils.class
+com\pojo\Employee.class
+com\report\ReportUtil.class
+com\annotations\FrameworkAnnotations.class
+com\utils\RandomUtils.class
+com\requestBuilder\RequestBuilder.class
+com\report\ExtentManager.class
+com\utils\ApiUtils.class
+com\constants\FrameworkConstantsWithSingleton.class
+com\listeners\TestListener.class
+com\utils\JiraUtils.class
+com\constants\FrameworkConstants.class
+com\report\ExtentLogger.class
+com\utils\FakerUtils.class
+com\pojo\Employee$EmployeeBuilder.class

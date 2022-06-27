@@ -1,0 +1,12 @@
+{
+	"id": "idNumber",
+    "first_name": "fname",
+    "last_name": "lname",
+    "email": "abc@gmail.com",
+    "jobs": ["Freelancer", "Lead Tester"],
+    "foods": {
+    	"breakfast" : "Idly",
+    	"lunch": " Rice",
+    	"dinner": ["Chappathi", "Milk"]
+    }
+ }

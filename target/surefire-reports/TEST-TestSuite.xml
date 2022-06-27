@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="30.363" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Pavithra Senthil\eclipse-workspace\RestAssuredFrameworkMini\target\test-classes;C:\Users\Pavithra Senthil\eclipse-workspace\RestAssuredFrameworkMini\target\classes;C:\Users\Pavithra Senthil\.m2\repository\io\rest-assured\rest-assured\5.0.1\rest-assured-5.0.1.jar;C:\Users\Pavithra Senthil\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Pavithra Senthil\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Pavithra Senthil\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Pavithra Senthil\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Pavithra Senthil\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Pavithra Senthil\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Pavithra Senthil\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Pavithra Senthil\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Pavithra Senthil\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Pavithra Senthil\.m2\repository\io\rest-assured\json-path\5.0.1\json-path-5.0.1.jar;C:\Users\Pavithra Senthil\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Pavithra Senthil\.m2\repository\io\rest-assured\rest-assured-common\5.0.1\rest-assured-common-5.0.1.jar;C:\Users\Pavithra Senthil\.m2\repository\io\rest-assured\xml-path\5.0.1\xml-path-5.0.1.jar;C:\Users\Pavithra Senthil\.m2\repository\io\rest-assured\json-schema-validator\4.3.3\json-schema-validator-4.3.3.jar;C:\Users\Pavithra Senthil\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Pavithra Senthil\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\Pavithra Senthil\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Pavithra Senthil\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Pavithra Senthil\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\Pavithra Senthil\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Pavithra Senthil\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Pavithra Senthil\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Pavithra Senthil\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Pavithra Senthil\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Pavithra Senthil\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Pavithra Senthil\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Pavithra Senthil\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Pavithra Senthil\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Pavithra Senthil\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Pavithra Senthil\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Pavithra Senthil\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Pavithra Senthil\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Pavithra Senthil\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Pavithra Senthil\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Pavithra Senthil\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Pavithra Senthil\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Pavithra Senthil\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Pavithra Senthil\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Pavithra Senthil\.m2\repository\com\github\javafaker\javafaker\0.18\javafaker-0.18.jar;C:\Users\Pavithra Senthil\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Pavithra Senthil\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Pavithra Senthil\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Pavithra Senthil\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Pavithra Senthil\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2.2\jackson-databind-2.13.2.2.jar;C:\Users\Pavithra Senthil\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar;C:\Users\Pavithra Senthil\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar;C:\Users\Pavithra Senthil\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\Pavithra Senthil\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\Pavithra Senthil\.m2\repository\org\assertj\assertj-core\3.22.0\assertj-core-3.22.0.jar;C:\Users\Pavithra Senthil\.m2\repository\joda-time\joda-time\2.10.14\joda-time-2.10.14.jar;C:\Users\Pavithra Senthil\.m2\repository\org\assertj\assertj-joda-time\2.2.0\assertj-joda-time-2.2.0.jar;C:\Users\Pavithra Senthil\.m2\repository\com\aventstack\extentreports\5.0.3\extentreports-5.0.3.jar;C:\Users\Pavithra Senthil\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Pavithra Senthil\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Pavithra Senthil\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Pavithra Senthil\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Pavithra Senthil\AppData\Local\Temp\surefire1690107043597256683\surefirebooter3075776737358654188.jar C:\Users\Pavithra Senthil\AppData\Local\Temp\surefire1690107043597256683 2022-06-22T16-30-26_660-jvmRun1 surefire7209230360752239714tmp surefire_04848529920984385312tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Pavithra Senthil\eclipse-workspace\RestAssuredFrameworkMini\target\test-classes;C:\Users\Pavithra Senthil\eclipse-workspace\RestAssuredFrameworkMini\target\classes;C:\Users\Pavithra Senthil\.m2\repository\io\rest-assured\rest-assured\5.0.1\rest-assured-5.0.1.jar;C:\Users\Pavithra Senthil\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Pavithra Senthil\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Pavithra Senthil\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Pavithra Senthil\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Pavithra Senthil\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Pavithra Senthil\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Pavithra Senthil\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Pavithra Senthil\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Pavithra Senthil\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Pavithra Senthil\.m2\repository\io\rest-assured\json-path\5.0.1\json-path-5.0.1.jar;C:\Users\Pavithra Senthil\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Pavithra Senthil\.m2\repository\io\rest-assured\rest-assured-common\5.0.1\rest-assured-common-5.0.1.jar;C:\Users\Pavithra Senthil\.m2\repository\io\rest-assured\xml-path\5.0.1\xml-path-5.0.1.jar;C:\Users\Pavithra Senthil\.m2\repository\io\rest-assured\json-schema-validator\4.3.3\json-schema-validator-4.3.3.jar;C:\Users\Pavithra Senthil\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\Pavithra Senthil\.m2\repository\com\google\guava\guava\28.2-android\guava-28.2-android.jar;C:\Users\Pavithra Senthil\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Pavithra Senthil\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Pavithra Senthil\.m2\repository\org\checkerframework\checker-compat-qual\2.5.5\checker-compat-qual-2.5.5.jar;C:\Users\Pavithra Senthil\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Pavithra Senthil\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Pavithra Senthil\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\Pavithra Senthil\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\Pavithra Senthil\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\Pavithra Senthil\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\Pavithra Senthil\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\Pavithra Senthil\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\Pavithra Senthil\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\Pavithra Senthil\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\Pavithra Senthil\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\Pavithra Senthil\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Pavithra Senthil\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Pavithra Senthil\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Pavithra Senthil\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Pavithra Senthil\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Pavithra Senthil\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Pavithra Senthil\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Pavithra Senthil\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Pavithra Senthil\.m2\repository\com\github\javafaker\javafaker\0.18\javafaker-0.18.jar;C:\Users\Pavithra Senthil\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Pavithra Senthil\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Pavithra Senthil\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Pavithra Senthil\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Pavithra Senthil\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2.2\jackson-databind-2.13.2.2.jar;C:\Users\Pavithra Senthil\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar;C:\Users\Pavithra Senthil\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar;C:\Users\Pavithra Senthil\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\Pavithra Senthil\.m2\repository\org\projectlombok\lombok\1.18.24\lombok-1.18.24.jar;C:\Users\Pavithra Senthil\.m2\repository\org\assertj\assertj-core\3.22.0\assertj-core-3.22.0.jar;C:\Users\Pavithra Senthil\.m2\repository\joda-time\joda-time\2.10.14\joda-time-2.10.14.jar;C:\Users\Pavithra Senthil\.m2\repository\org\assertj\assertj-joda-time\2.2.0\assertj-joda-time-2.2.0.jar;C:\Users\Pavithra Senthil\.m2\repository\com\aventstack\extentreports\5.0.3\extentreports-5.0.3.jar;C:\Users\Pavithra Senthil\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Pavithra Senthil\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Pavithra Senthil\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Pavithra Senthil\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Pavithra Senthil"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="basedir" value="C:\Users\Pavithra Senthil\eclipse-workspace\RestAssuredFrameworkMini"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Pavithra Senthil\AppData\Local\Temp\surefire1690107043597256683\surefirebooter3075776737358654188.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="user.name" value="Pavithra Senthil"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Pavithra Senthil\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\PAVITH~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="user.dir" value="C:\Users\Pavithra Senthil\eclipse-workspace\RestAssuredFrameworkMini"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft MPI\Bin\;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Maven\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\lib;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Pavithra Senthil\AppData\Local\Android\Sdk\platform-tools\;C:\Users\Pavithra Senthil\AppData\Local\Android\Sdk\emulator;C:\Users\Pavithra Senthil\AppData\Local\Android\Sdk\tools;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Users\Pavithra Senthil\AppData\Local\Microsoft\WindowsApps;C:\Users\Pavithra Senthil\AppData\Local\atom\bin;C:\Users\Pavithra Senthil\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Users\Pavithra Senthil\AppData\Roaming\npm;C:\Users\Pavithra Senthil\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="getEmployeeDetails[2, Palmer](1)" classname="com.tests.GetTests" time="14.538">
+    <system-out><![CDATA[[
+    {
+        "id": 2,
+        "first_name": "Steve",
+        "last_name": "Palmer",
+        "email": "steve@codingthesmartway.com"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getEmployeeDetails[3, Smith](2)" classname="com.tests.GetTests" time="0.082">
+    <system-out><![CDATA[[
+    {
+        "id": 3,
+        "first_name": "Ann",
+        "last_name": "Smith",
+        "email": "ann@codingthesmartway.com"
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getEmployeeDetails[753, Tremblay](3)" classname="com.tests.GetTests" time="0.068">
+    <system-out><![CDATA[[
+    {
+        "first_name": "Lowell",
+        "last_name": "Tremblay",
+        "email": "Connie.Tremblay99@gmail.com",
+        "id": 753
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="getEmployeesDetail" classname="com.tests.GetTests" time="8.134">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	http://192.168.1.6:3000/employees
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+[
+    {
+        "id": 1,
+        "first_name": "Sebastian",
+        "last_name": "Eschweiler",
+        "email": "sebastian@codingthesmartway.com"
+    },
+    {
+        "id": 2,
+        "first_name": "Steve",
+        "last_name": "Palmer",
+        "email": "steve@codingthesmartway.com"
+    },
+    {
+        "id": 3,
+        "first_name": "Ann",
+        "last_name": "Smith",
+        "email": "ann@codingthesmartway.com"
+    },
+    {
+        "id": 752,
+        "first_name": "Jean",
+        "last_name": "Windler",
+        "email": "Annette72@yahoo.com"
+    },
+    {
+        "first_name": "Lowell",
+        "last_name": "Tremblay",
+        "email": "Connie.Tremblay99@gmail.com",
+        "id": 753
+    },
+    {
+        "first_name": "Tatyana",
+        "last_name": "Will",
+        "email": "Domingo.Watsica@hotmail.com",
+        "id": 754
+    },
+    {
+        "first_name": "Maximillian",
+        "last_name": "Casper",
+        "email": "Derek.Koss@gmail.com",
+        "id": 755
+    },
+    {
+        "id": 756
+    },
+    {
+        "first_name": "Ram",
+        "last_name": "Krishna",
+        "email": "abc@gmail.com",
+        "id": 757
+    },
+    {
+        "first_name": "Ram",
+        "last_name": "Krishna",
+        "email": "abc@gmail.com",
+        "id": 758
+    },
+    {
+        "firstName": "Dennise",
+        "lastName": "Connelly",
+        "id": 759
+    },
+    {
+        "first_name": "Ram",
+        "last_name": "Krishna",
+        "email": "abc@gmail.com",
+        "id": 760
+    },
+    {
+        "first_name": "Ram",
+        "last_name": "Krishna",
+        "email": "abc@gmail.com",
+        "id": 761
+    },
+    {
+        "id": 36,
+        "first_name": "Krish",
+        "last_name": "Harber",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": 25,
+        "first_name": "Audrie",
+        "last_name": "Shanahan",
+        "email": "asdf@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "food": {
+            "lunch": "rice",
+            "breakfast": "Idly",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 301,
+        "first_name": "Marco",
+        "last_name": "Lemke",
+        "email": "asdf@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "food": {
+            "lunch": "rice",
+            "breakfast": "Idly",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "last_name": "Ernser",
+        "id": 418,
+        "first_name": "Meda",
+        "email": "asdf@gmail.com",
+        "food": {
+            "lunch": [
+                "Chappathi",
+                "Milk"
+            ],
+            "breakfast": "Idly"
+        }
+    },
+    {
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "last_name": "Harvey",
+        "id": 197,
+        "first_name": "Lacey",
+        "email": "asdf@gmail.com",
+        "food": {
+            "lunch": "rice",
+            "breakfast": "Idly",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "last_name": "Olson",
+        "id": 317,
+        "first_name": "Thomas",
+        "email": [
+            "asdf@gmail.com",
+            "acvfg@gmail.com"
+        ],
+        "food": {
+            "lunch": "rice",
+            "breakfast": "Idly",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 83,
+        "firstName": "Berry",
+        "lastName": "Bogisich",
+        "email": "krishna@gmail.com"
+    },
+    {
+        "id": 30,
+        "firstName": "Werner",
+        "lastName": "Walter",
+        "email": "krishna@gmail.com",
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice",
+            "dinner": "Chappathi"
+        }
+    },
+    {
+        "id": 63,
+        "firstName": "Wynell",
+        "lastName": "Gleichner",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 39,
+        "firstName": "Andrew",
+        "lastName": "Langworth",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "",
+            "lunch": "Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 75,
+        "firstName": "Harvey",
+        "lastName": "Wiegand",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "lunch": "Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 78,
+        "firstName": "Claudine",
+        "lastName": "Konopelski",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 49,
+        "firstName": "Clarisa",
+        "lastName": "Macejkovic",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 33,
+        "firstName": "John",
+        "lastName": "Ledner",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice"
+        }
+    },
+    {
+        "id": 100,
+        "firstName": "Sam",
+        "lastName": "Bartoletti",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice"
+        }
+    },
+    {
+        "id": 101,
+        "firstName": "Jewel",
+        "lastName": "O'Conner",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice"
+        }
+    },
+    {
+        "id": 102,
+        "firstName": "Rayford",
+        "lastName": "Zboncak",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice"
+        }
+    },
+    {
+        "id": 103,
+        "firstName": "Rolland",
+        "lastName": "Rohan",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice"
+        }
+    },
+    {
+        "id": 104,
+        "firstName": "Selma",
+        "lastName": "McKenzie",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice"
+        }
+    },
+    {
+        "id": 105,
+        "firstName": "Yen",
+        "lastName": "Satterfield",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice"
+        }
+    },
+    {
+        "id": 106,
+        "firstName": "Marquis",
+        "lastName": "DuBuque",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice"
+        }
+    },
+    {
+        "id": 107,
+        "firstName": "Deneen",
+        "lastName": "Bins",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice"
+        }
+    },
+    {
+        "id": 108,
+        "firstName": "Jerrod",
+        "lastName": "Beatty",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice"
+        }
+    },
+    {
+        "id": 109,
+        "firstName": "Chiquita",
+        "lastName": "Weimann",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice"
+        }
+    },
+    {
+        "id": 5,
+        "firstName": "Micheal",
+        "lastName": "Jordan",
+        "email": "m.jordan@gmail.com"
+    },
+    {
+        "id": 1013,
+        "firstName": "Johnny",
+        "lastName": "Morar",
+        "email": "Stella.Parisian@Gmail.com"
+    },
+    {
+        "id": 1491,
+        "firstName": "Porter",
+        "lastName": "Armstrong",
+        "email": "Angele.Wintheiser@Gmail.com"
+    },
+    {
+        "1302": "1302",
+        "first_name": "Vito",
+        "last_name": "Dickens",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        },
+        "id": 1492
+    },
+    {
+        "id": "1432",
+        "first_name": "Florence",
+        "last_name": "Moen",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1230",
+        "first_name": "Lydia",
+        "last_name": "Reilly",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1155",
+        "first_name": "Cathey",
+        "last_name": "Nolan",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1912",
+        "first_name": "Korey",
+        "last_name": "Mante",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1716",
+        "first_name": "Necole",
+        "last_name": "Rippin",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1233",
+        "first_name": "Alexander",
+        "last_name": "Blick",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 1973,
+        "firstName": "Ed",
+        "lastName": "Armstrong",
+        "email": "Pearlene.Feest@Gmail.com"
+    },
+    {
+        "id": "1162",
+        "first_name": "Micheal",
+        "last_name": "Hansen",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1851",
+        "first_name": "Ruben",
+        "last_name": "Bartoletti",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 1148,
+        "firstName": "Herman",
+        "lastName": "Luettgen",
+        "email": "Lajuana.Runolfsdottir@Gmail.com"
+    },
+    {
+        "id": "1546",
+        "first_name": "Kenda",
+        "last_name": "Raynor",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1282",
+        "first_name": "Jonah",
+        "last_name": "Goldner",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1703",
+        "first_name": "Curt",
+        "last_name": "Hartmann",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1401",
+        "first_name": "Eryn",
+        "last_name": "Crist",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1032",
+        "first_name": "Valentin",
+        "last_name": "Wiza",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 1431,
+        "firstName": "Clarence",
+        "lastName": "Jacobi",
+        "email": "Charlyn.Rowe@Gmail.com"
+    },
+    {
+        "id": "1913",
+        "first_name": "Corey",
+        "last_name": "Wolff",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1150",
+        "first_name": "Lincoln",
+        "last_name": "Reilly",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 1119,
+        "firstName": "Leonia",
+        "lastName": "Schiller",
+        "email": "Melody.Wisoky@Gmail.com"
+    },
+    {
+        "id": "1105",
+        "first_name": "Kandra",
+        "last_name": "Klocko",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1644",
+        "first_name": "Genevie",
+        "last_name": "Keebler",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 1619,
+        "firstName": "Jean",
+        "lastName": "Green",
+        "email": "Keri.Bashirian@Gmail.com"
+    },
+    {
+        "id": "1281",
+        "first_name": "Marilee",
+        "last_name": "Lebsack",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1216",
+        "first_name": "Dan",
+        "last_name": "Gusikowski",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 1224,
+        "firstName": "Jared",
+        "lastName": "Romaguera",
+        "email": "Alonso.Parker@Gmail.com"
+    },
+    {
+        "id": "1837",
+        "first_name": "Oren",
+        "last_name": "Simonis",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1350",
+        "first_name": "Caitlin",
+        "last_name": "Schmitt",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="verifyBasicAuth" classname="com.tests.GetTests" time="0.005">
+    <system-out><![CDATA[{
+    "authenticated": true
+}
+]]></system-out>
+  </testcase>
+</testsuite>

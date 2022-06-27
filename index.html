@@ -1,0 +1,1584 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c30588d3e4865eb6c631664381f105493ff8f21e/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jun 22, 2022 04:30:36 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Pavithra</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Smoke</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author="Pavithra"
+          tag="Smoke"
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">getEmployeeDetails</p>
+            <p class="text-sm"><span>16:30:38 PM</span> / <span>30:14:507</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=1</span></div>
+<h5 class="test-status text-pass">getEmployeeDetails</h5>
+<span class='badge badge-success'>06.22.2022 16:30:38</span>
+<span class='badge badge-danger'>06.22.2022 16:30:53</span>
+<span class='badge badge-default'>30:14:507</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> Pavithra</span>
+<span class="badge badge-pill badge-default"> Smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:30:50 PM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-0'></div>
+ <script>
+  function jsonTreeCreate0() { 
+   document.getElementById('code-block-json-0').innerHTML = JSONTree.create([
+    {
+        "id": 2,
+        "first_name": "Steve",
+        "last_name": "Palmer",
+        "email": "steve@codingthesmartway.com"
+    }
+]); 
+  }
+  jsonTreeCreate0();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:30:53 PM</td>
+        <td>
+          getEmployeeDetails is passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author="Pavithra"
+          tag="Smoke"
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">getEmployeeDetails</p>
+            <p class="text-sm"><span>16:30:53 PM</span> / <span>30:00:101</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=2</span></div>
+<h5 class="test-status text-pass">getEmployeeDetails</h5>
+<span class='badge badge-success'>06.22.2022 16:30:53</span>
+<span class='badge badge-danger'>06.22.2022 16:30:53</span>
+<span class='badge badge-default'>30:00:101</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> Pavithra</span>
+<span class="badge badge-pill badge-default"> Smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:30:53 PM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-1'></div>
+ <script>
+  function jsonTreeCreate1() { 
+   document.getElementById('code-block-json-1').innerHTML = JSONTree.create([
+    {
+        "id": 3,
+        "first_name": "Ann",
+        "last_name": "Smith",
+        "email": "ann@codingthesmartway.com"
+    }
+]); 
+  }
+  jsonTreeCreate1();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:30:53 PM</td>
+        <td>
+          getEmployeeDetails is passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author="Pavithra"
+          tag="Smoke"
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">getEmployeeDetails</p>
+            <p class="text-sm"><span>16:30:53 PM</span> / <span>30:00:061</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=3</span></div>
+<h5 class="test-status text-pass">getEmployeeDetails</h5>
+<span class='badge badge-success'>06.22.2022 16:30:53</span>
+<span class='badge badge-danger'>06.22.2022 16:30:53</span>
+<span class='badge badge-default'>30:00:061</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> Pavithra</span>
+<span class="badge badge-pill badge-default"> Smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:30:53 PM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-2'></div>
+ <script>
+  function jsonTreeCreate2() { 
+   document.getElementById('code-block-json-2').innerHTML = JSONTree.create([
+    {
+        "first_name": "Lowell",
+        "last_name": "Tremblay",
+        "email": "Connie.Tremblay99@gmail.com",
+        "id": 753
+    }
+]); 
+  }
+  jsonTreeCreate2();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:30:53 PM</td>
+        <td>
+          getEmployeeDetails is passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author="Pavithra"
+          tag="Smoke"
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">getEmployeesDetail</p>
+            <p class="text-sm"><span>16:30:53 PM</span> / <span>30:01:881</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=4</span></div>
+<h5 class="test-status text-pass">getEmployeesDetail</h5>
+<span class='badge badge-success'>06.22.2022 16:30:53</span>
+<span class='badge badge-danger'>06.22.2022 16:30:55</span>
+<span class='badge badge-default'>30:01:881</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> Pavithra</span>
+<span class="badge badge-pill badge-default"> Smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:30:55 PM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-3'></div>
+ <script>
+  function jsonTreeCreate3() { 
+   document.getElementById('code-block-json-3').innerHTML = JSONTree.create([
+    {
+        "id": 1,
+        "first_name": "Sebastian",
+        "last_name": "Eschweiler",
+        "email": "sebastian@codingthesmartway.com"
+    },
+    {
+        "id": 2,
+        "first_name": "Steve",
+        "last_name": "Palmer",
+        "email": "steve@codingthesmartway.com"
+    },
+    {
+        "id": 3,
+        "first_name": "Ann",
+        "last_name": "Smith",
+        "email": "ann@codingthesmartway.com"
+    },
+    {
+        "id": 752,
+        "first_name": "Jean",
+        "last_name": "Windler",
+        "email": "Annette72@yahoo.com"
+    },
+    {
+        "first_name": "Lowell",
+        "last_name": "Tremblay",
+        "email": "Connie.Tremblay99@gmail.com",
+        "id": 753
+    },
+    {
+        "first_name": "Tatyana",
+        "last_name": "Will",
+        "email": "Domingo.Watsica@hotmail.com",
+        "id": 754
+    },
+    {
+        "first_name": "Maximillian",
+        "last_name": "Casper",
+        "email": "Derek.Koss@gmail.com",
+        "id": 755
+    },
+    {
+        "id": 756
+    },
+    {
+        "first_name": "Ram",
+        "last_name": "Krishna",
+        "email": "abc@gmail.com",
+        "id": 757
+    },
+    {
+        "first_name": "Ram",
+        "last_name": "Krishna",
+        "email": "abc@gmail.com",
+        "id": 758
+    },
+    {
+        "firstName": "Dennise",
+        "lastName": "Connelly",
+        "id": 759
+    },
+    {
+        "first_name": "Ram",
+        "last_name": "Krishna",
+        "email": "abc@gmail.com",
+        "id": 760
+    },
+    {
+        "first_name": "Ram",
+        "last_name": "Krishna",
+        "email": "abc@gmail.com",
+        "id": 761
+    },
+    {
+        "id": 36,
+        "first_name": "Krish",
+        "last_name": "Harber",
+        "email": "abc@gmail.com"
+    },
+    {
+        "id": 25,
+        "first_name": "Audrie",
+        "last_name": "Shanahan",
+        "email": "asdf@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "food": {
+            "lunch": "rice",
+            "breakfast": "Idly",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 301,
+        "first_name": "Marco",
+        "last_name": "Lemke",
+        "email": "asdf@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "food": {
+            "lunch": "rice",
+            "breakfast": "Idly",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "last_name": "Ernser",
+        "id": 418,
+        "first_name": "Meda",
+        "email": "asdf@gmail.com",
+        "food": {
+            "lunch": [
+                "Chappathi",
+                "Milk"
+            ],
+            "breakfast": "Idly"
+        }
+    },
+    {
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "last_name": "Harvey",
+        "id": 197,
+        "first_name": "Lacey",
+        "email": "asdf@gmail.com",
+        "food": {
+            "lunch": "rice",
+            "breakfast": "Idly",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "last_name": "Olson",
+        "id": 317,
+        "first_name": "Thomas",
+        "email": [
+            "asdf@gmail.com",
+            "acvfg@gmail.com"
+        ],
+        "food": {
+            "lunch": "rice",
+            "breakfast": "Idly",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 83,
+        "firstName": "Berry",
+        "lastName": "Bogisich",
+        "email": "krishna@gmail.com"
+    },
+    {
+        "id": 30,
+        "firstName": "Werner",
+        "lastName": "Walter",
+        "email": "krishna@gmail.com",
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice",
+            "dinner": "Chappathi"
+        }
+    },
+    {
+        "id": 63,
+        "firstName": "Wynell",
+        "lastName": "Gleichner",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 39,
+        "firstName": "Andrew",
+        "lastName": "Langworth",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "",
+            "lunch": "Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 75,
+        "firstName": "Harvey",
+        "lastName": "Wiegand",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "lunch": "Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 78,
+        "firstName": "Claudine",
+        "lastName": "Konopelski",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 49,
+        "firstName": "Clarisa",
+        "lastName": "Macejkovic",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 33,
+        "firstName": "John",
+        "lastName": "Ledner",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice"
+        }
+    },
+    {
+        "id": 100,
+        "firstName": "Sam",
+        "lastName": "Bartoletti",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice"
+        }
+    },
+    {
+        "id": 101,
+        "firstName": "Jewel",
+        "lastName": "O'Conner",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice"
+        }
+    },
+    {
+        "id": 102,
+        "firstName": "Rayford",
+        "lastName": "Zboncak",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice"
+        }
+    },
+    {
+        "id": 103,
+        "firstName": "Rolland",
+        "lastName": "Rohan",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice"
+        }
+    },
+    {
+        "id": 104,
+        "firstName": "Selma",
+        "lastName": "McKenzie",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice"
+        }
+    },
+    {
+        "id": 105,
+        "firstName": "Yen",
+        "lastName": "Satterfield",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice"
+        }
+    },
+    {
+        "id": 106,
+        "firstName": "Marquis",
+        "lastName": "DuBuque",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice"
+        }
+    },
+    {
+        "id": 107,
+        "firstName": "Deneen",
+        "lastName": "Bins",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice"
+        }
+    },
+    {
+        "id": 108,
+        "firstName": "Jerrod",
+        "lastName": "Beatty",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice"
+        }
+    },
+    {
+        "id": 109,
+        "firstName": "Chiquita",
+        "lastName": "Weimann",
+        "email": "krishna@gmail.com",
+        "jobs": [
+            "Tester",
+            "Trainer"
+        ],
+        "favfood": {
+            "breakfast": "Idly",
+            "lunch": "Rice"
+        }
+    },
+    {
+        "id": 5,
+        "firstName": "Micheal",
+        "lastName": "Jordan",
+        "email": "m.jordan@gmail.com"
+    },
+    {
+        "id": 1013,
+        "firstName": "Johnny",
+        "lastName": "Morar",
+        "email": "Stella.Parisian@Gmail.com"
+    },
+    {
+        "id": 1491,
+        "firstName": "Porter",
+        "lastName": "Armstrong",
+        "email": "Angele.Wintheiser@Gmail.com"
+    },
+    {
+        "1302": "1302",
+        "first_name": "Vito",
+        "last_name": "Dickens",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        },
+        "id": 1492
+    },
+    {
+        "id": "1432",
+        "first_name": "Florence",
+        "last_name": "Moen",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1230",
+        "first_name": "Lydia",
+        "last_name": "Reilly",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1155",
+        "first_name": "Cathey",
+        "last_name": "Nolan",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1912",
+        "first_name": "Korey",
+        "last_name": "Mante",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1716",
+        "first_name": "Necole",
+        "last_name": "Rippin",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1233",
+        "first_name": "Alexander",
+        "last_name": "Blick",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 1973,
+        "firstName": "Ed",
+        "lastName": "Armstrong",
+        "email": "Pearlene.Feest@Gmail.com"
+    },
+    {
+        "id": "1162",
+        "first_name": "Micheal",
+        "last_name": "Hansen",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1851",
+        "first_name": "Ruben",
+        "last_name": "Bartoletti",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 1148,
+        "firstName": "Herman",
+        "lastName": "Luettgen",
+        "email": "Lajuana.Runolfsdottir@Gmail.com"
+    },
+    {
+        "id": "1546",
+        "first_name": "Kenda",
+        "last_name": "Raynor",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1282",
+        "first_name": "Jonah",
+        "last_name": "Goldner",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1703",
+        "first_name": "Curt",
+        "last_name": "Hartmann",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1401",
+        "first_name": "Eryn",
+        "last_name": "Crist",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1032",
+        "first_name": "Valentin",
+        "last_name": "Wiza",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 1431,
+        "firstName": "Clarence",
+        "lastName": "Jacobi",
+        "email": "Charlyn.Rowe@Gmail.com"
+    },
+    {
+        "id": "1913",
+        "first_name": "Corey",
+        "last_name": "Wolff",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1150",
+        "first_name": "Lincoln",
+        "last_name": "Reilly",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 1119,
+        "firstName": "Leonia",
+        "lastName": "Schiller",
+        "email": "Melody.Wisoky@Gmail.com"
+    },
+    {
+        "id": "1105",
+        "first_name": "Kandra",
+        "last_name": "Klocko",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1644",
+        "first_name": "Genevie",
+        "last_name": "Keebler",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 1619,
+        "firstName": "Jean",
+        "lastName": "Green",
+        "email": "Keri.Bashirian@Gmail.com"
+    },
+    {
+        "id": "1281",
+        "first_name": "Marilee",
+        "last_name": "Lebsack",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1216",
+        "first_name": "Dan",
+        "last_name": "Gusikowski",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": 1224,
+        "firstName": "Jared",
+        "lastName": "Romaguera",
+        "email": "Alonso.Parker@Gmail.com"
+    },
+    {
+        "id": "1837",
+        "first_name": "Oren",
+        "last_name": "Simonis",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    },
+    {
+        "id": "1350",
+        "first_name": "Caitlin",
+        "last_name": "Schmitt",
+        "email": "abc@gmail.com",
+        "jobs": [
+            "Freelancer",
+            "Lead Tester"
+        ],
+        "foods": {
+            "breakfast": "Idly",
+            "lunch": " Rice",
+            "dinner": [
+                "Chappathi",
+                "Milk"
+            ]
+        }
+    }
+]); 
+  }
+  jsonTreeCreate3();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:30:55 PM</td>
+        <td>
+          getEmployeesDetail is passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author="Pavithra"
+          tag="Smoke"
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">verifyBasicAuth</p>
+            <p class="text-sm"><span>16:30:55 PM</span> / <span>30:04:528</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=5</span></div>
+<h5 class="test-status text-pass">verifyBasicAuth</h5>
+<span class='badge badge-success'>06.22.2022 16:30:55</span>
+<span class='badge badge-danger'>06.22.2022 16:30:59</span>
+<span class='badge badge-default'>30:04:528</span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default"> Pavithra</span>
+<span class="badge badge-pill badge-default"> Smoke</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:30:59 PM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-4'></div>
+ <script>
+  function jsonTreeCreate4() { 
+   document.getElementById('code-block-json-4').innerHTML = JSONTree.create({
+    "authenticated": true
+}); 
+  }
+  jsonTreeCreate4();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:30:59 PM</td>
+        <td>
+          verifyBasicAuth is passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>5</span>
+</span>
+<p class="name">Smoke</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Smoke</h4>
+<span status="pass" class='badge log pass-bg'>5 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:30:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>getEmployeeDetails</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:30:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>getEmployeeDetails</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:30:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>getEmployeeDetails</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:30:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>getEmployeesDetail</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:30:55 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>verifyBasicAuth</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>5</span>
+</span>
+<p class="name">Pavithra</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Pavithra</h4>
+<span status="pass" class='badge log pass-bg'>5 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:30:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>getEmployeeDetails</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:30:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>getEmployeeDetails</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:30:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>getEmployeeDetails</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:30:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>getEmployeesDetail</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:30:55 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>verifyBasicAuth</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jun 22, 2022 04:30:36 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jun 22, 2022 04:31:03 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>5</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>5</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>10</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>Pavithra</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-md-4 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>Smoke</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 5,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 10,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@5cf22a596531402644b8523470526952516f345f/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "id": "1155",
+  "first_name": "Cathey",
+  "last_name": "Nolan",
+  "email": "abc@gmail.com",
+  "jobs": [
+    "Freelancer",
+    "Lead Tester"
+  ],
+  "foods": {
+    "breakfast": "Idly",
+    "lunch": " Rice",
+    "dinner": [
+      "Chappathi",
+      "Milk"
+    ]
+  }
+}
